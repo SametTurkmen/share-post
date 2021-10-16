@@ -1,0 +1,2 @@
+function notification(e){var t=document.querySelector(".alert");t&&t.parentNode.removeChild(t);var c=document.createElement("div");c.className="alert",c.innerHTML=e,document.body.appendChild(c),setTimeout((()=>c.classList.add("active")),1),setTimeout((()=>c.classList.remove("active")),1e3)}function copy(e){document.getElementById(e).select(),document.execCommand("copy"),notification("Succesfull copied")}
+//# sourceMappingURL=script.js.map
